@@ -261,7 +261,7 @@ vvp cpu_tb_out
 
 
 video of coding
-https://drive.google.com/drive/u/1/folders/1-uNRp9ODGigJ8TI2iItfg0vk2Js7619l
+https://drive.google.com/drive/folders/1-uNRp9ODGigJ8TI2iItfg0vk2Js7619l?usp=sharing
 
 in eda playground use iverilog as simulator
 https://www.edaplayground.com/x/QF9c
