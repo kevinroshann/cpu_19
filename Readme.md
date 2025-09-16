@@ -191,26 +191,45 @@ type_decode.v
 SAMPLE INSTRUCTION
 
 19'b1010_0001_0000_0000001; //DECRYPT r1, [1]
+
 19'b1011_0001_0000_0000000; //FFT r1, [0] 
 
 19'b0101_0001_0000_0000000; // Load r1, [0]
+
 19'b0101_0010_0000_0000001; // Load r2, [1]
+
 19'b0111_0000_0000_0010000; // Call 0x10 (call address 16)
+
 19'b0110_0011_0000_0000010; // Store r3 to  [2]
+
 19'b0101_0100_0000_0000010; // Load r4, [2]
+
 19'b0111_0000_0000_0011000; // Call 0x18 (call address 24)
+
 19'b0110_0101_0000_0000011; // Store r5 to [3]
+
 19'b0101_0110_0000_0000011; // Load r6, [3]
+
 19'b0101_0111_0000_0000100; // Load r7, [4]
+
 19'b0111_0000_0000_0011100; // Call 0x1C (call address 28)
+
 19'b0100_0111_0000_0010011; // Branch (rs1=r7, rs2=0, branch_addr=19)
+
 19'b0011_0000_0000_0011111; // Jump 0x1F (jump_addr=31)
+
 19'b0001_0001_0010_0011_000; // R-type: ADD r3 = r1 + r2 (alu_type=000)
+
 19'b1000_0000_0000_0000000; // RET
+
 19'b0001_0100_0100_0101_000; // R-type: ADD r5 = r4 + r4
+
 19'b1000_0000_0000_0000000; // RET
+
 19'b0010_0111_0100_0111_000; // I-type 
+
 19'b1000_0000_0000_0000000; // RET
+
 
 when running in eda playground uncomment
 // `include "alu_control.sv"
@@ -240,6 +259,9 @@ for runnning in vscode download iverilog and command
 iverilog -g2012 -o cpu_tb_out *.sv
 vvp cpu_tb_out
 
+
+video of coding
+https://drive.google.com/drive/u/1/folders/1-uNRp9ODGigJ8TI2iItfg0vk2Js7619l
 
 in eda playground use iverilog as simulator
 https://www.edaplayground.com/x/QF9c
