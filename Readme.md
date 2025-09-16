@@ -167,3 +167,7 @@ vvp cpu_tb_out
 
 
 in eda playground use iverilog as simulator
+https://www.edaplayground.com/x/QF9c
+
+
+<img width="1274" height="227" alt="image" src="https://github.com/user-attachments/assets/66997ae9-8ae7-4162-9c2b-148aea7368c8" />
